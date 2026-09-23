@@ -6,10 +6,14 @@
     console.log(clean)
     let space = clean.indexOf(" ")  // 2. find the space between the names
     console.log(space)
-    let first = space.slice(0,5);   // 3. cut out the first name
+    let first = clean.slice(4).trim();   // 3. cut out the first name
     console.log(first)
-    let last;   // 4. cut out the last name
-    first;       // 5. capitalize each one
-    last;
-    console.log();  // 6. print "Last, First"
+    let last = clean.substring(0,4).trim()  // 4. cut out the last name
+    console.log(last)
+    first = first.toUpperCase().trim()       // 5. capitalize each one
+    console.log(first)
+    last = last.toUpperCase();
+    console.log(last)
+    console.log(last,first);  // 6. print "Last, First"
+    (last,first)
     </script>
