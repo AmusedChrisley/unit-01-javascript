@@ -1,0 +1,33 @@
+<script>
+
+let grade = Number((prompt("Enter your test score")));
+// *We have to use Number with prompt because if we don't use number, the score inside will turn into a string *\\
+if (grade >= 90) {
+   alert("A")
+}
+else if (grade >= 80) {
+  alert("B")
+}
+else if (grade >= 70) {
+    alert("C")
+}
+else if (grade >= 60) {
+    alert("D")
+}
+else if (grade >= 60) {
+    alert("F")
+}
+
+
+/*
+  TEST RESULTS - Letter Grade Converter
+  Test score | Expected | Your output
+  -----------|----------|------------
+  90         | A        | _A__
+  89         | B        | __B_
+  60         | D        | _C__
+  59         | F        |D ___
+  100        | A        | _A__
+*/
+
+</script>
