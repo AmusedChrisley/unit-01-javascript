@@ -77,15 +77,30 @@ catch (error){
 // "C" (70+), "D" (60+), or "F".
 // Use an if...else if chain OR a switch. Check the highest grade first!
  function getLetter(average) {
-    returns ("A")+ returns("B") + returns("C") + returns("D") + returns("F")
+   if (average <= 90) {
+    return "A"
+   }
+   else if (average <= 80) {
+    return "B"
+   }
+   else if (average <= 70) {
+    return "C"
+   }
+   else if (average <= 60) {
+    return "D"
+   }
+   else if (average > 60) {
+    return "F"
+   }
 } 
-if 
 
 // STEP 4: Highest and lowest
 // Write findHighest(list) and findLowest(list).
 // Each uses a for loop and returns the STUDENT OBJECT, not just the number.
 
-
+function findHighest(list) {
+    for (let i = )
+}
 // STEP 5: Sort
 // Write sortByAverage(list) that sorts from highest to lowest average:
 //     list.sort((a, b) => b.getAverage() - a.getAverage());
